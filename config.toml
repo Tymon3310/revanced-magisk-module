@@ -11,8 +11,8 @@ rv-brand = "Youtube ReVanced Extended"
 
 [YouTube]
 build-mode = "module"
-excluded-patches = "microg-support; custom-branding-icon-afn-red "
-included-patches = "materialyou; force-premium-heading; disable-landscape-mode; custom-branding-icon-afn-blue"
+excluded-patches = "microg-support" "custom-branding-icon-afn-red "
+included-patches = "materialyou" "force-premium-heading" "disable-landscape-mode" "custom-branding-icon-afn-blue" "hide-double-tap-overlay-filter"
 version = "auto"
 exclusive-patches = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
