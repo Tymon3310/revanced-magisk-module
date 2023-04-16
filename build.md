@@ -25,7 +25,7 @@ YouTube Music
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.14.41  
 Music (arm64-v8a): 5.52.51  
+YouTube: 18.14.41  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
