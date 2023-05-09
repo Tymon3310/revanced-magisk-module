@@ -1,6 +1,6 @@
 {
-  "version": "v5.39.52",
-  "versionCode": 20220863,
-  "zipUrl": "https://github.com/j-hc/revanced-magisk-module/releases/download/20220863/music-revanced-magisk-v5.39.52-arm-v7a.zip",
-  "changelog": "https://raw.githubusercontent.com/j-hc/revanced-magisk-module/update/build.md"
+  "version": "v5.55.53",
+  "versionCode": 6,
+  "zipUrl": "https://github.com/Tymon3310/revanced-magisk-module/releases/download/6/music-youtube-revanced-extended-magisk-v5.55.53-arm-v7a.zip",
+  "changelog": "https://raw.githubusercontent.com/Tymon3310/revanced-magisk-module/update/build.md"
 }

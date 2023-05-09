@@ -1,41 +1,57 @@
-CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.102.2.apk  
-Patches: revanced-patches-2.168.42.jar  
+CLI: revanced-cli-2.22.0-all.jar  
+Integrations: revanced-integrations-0.107.4.apk  
+Patches: revanced-patches-2.173.4.jar  
 
 YouTube
 ==
-- change default video quality label https://github.com/inotia00/ReVanced_Extended/issues/751
-- feat(sponsorblock): skip to video highlight
-- fix(hide-time-stamp): player overlay button not working when `hide-time-stamp` is on
-- fix(hide-time-stamp): reboot dialog should not be shown
-- fix(sponsorblock): update HTTP user agent
-- fix(sponsorblock): wrong `video-id-hook` patch used https://github.com/inotia00/ReVanced_Extended/issues/777
-- refactor(return-youtube-dislike): matches official ReVanced's code
-- crowdin translation update
-`Arabic`, `Bulgarian`, `Chinese Simplified`, `Chinese Traditional`, `French`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
+- feat(youtube): add `hide-load-more-button` patch
+- feat(youtube): add `hide-seek-message` patch
+- feat(youtube): add reboot dialog when installing for the first time
+- feat(youtube): use better patch descriptions 
+- feat(youtube): remove dummy code
+- feat(youtube): remove WatchWhileActivity from dummy class
+- feat(youtube/custom-branding-icon-revancify): update monochrome icon
+- feat(youtube/hide-navigation-buttons): add `Open library on app startup` settings
+- feat(youtube/overlay-buttons): fix button size and padding
+- feat(youtube/patch-options): all patch options are now moved to the appropriate patch
+- feat(youtube/settings): change default values
+- feat(youtube/settings): add `Open default app settings` settings
+- fix(youtube/sponsorblock): unable to submit end of the video when submitting segment
+- fix(youtube/sponsorblock): vote button and new segment button do not disappear when end screen overlay appears
+- feat(youtube/custom-seekbar-color): change chapter seekbar color when quickly touching and seeking
+- feat(youtube/hide-get-premium): removed from patch list and dependent on `hide-general-ads` patch
+- feat(youtube/hide-breaking-news-shelf): detached from `hide-general-ads` patch
+- feat(youtube/translations): update translation
+`Arabic`, `Bengali`, `French`, `German`, `Greek`, `Indonesian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
 
 
 YouTube Music
 ==
-- fix: amoled patch changes other areas to black color besides the flyout panel https://github.com/inotia00/ReVanced_Extended/issues/750
-- crowdin translation update
-`Chinese Traditional`, `Greek`, `Indonesian`, `Korean`, `Turkish`, `Vietnamese`
+- feat(music/patch-options): all patch options are now moved to the appropriate patch
+- feat(music/custom-branding-music-revancify): update monochrome icon
+- feat(music/music-translations): update translation
+`Bengali`, `French`, `Indonesian`, `Japanese`
 
 
 ETC
 ==
-- build: update dependencies
+- Delete `options.json` manually as there are changes in `options.json`
 
 
 ※ Compatible ReVanced Manager: v0.0.57
-※ If you want to contribute to the translation, refer below
-
 [Crowdin translation]
 - [European Countries](https://crowdin.com/project/revancedextendedeu)
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.14.41  
-Music (arm64-v8a): 5.53.50  
+YouTube: 18.16.39  
+Music (arm64-v8a): 5.55.53  
+Music (arm-v7a): 5.55.53  
+Twitter: 9.87.0-release.0  
+Reddit: 2023.18.0  
+Twitch: 15.1.1  
+TikTok: 29.3.4  
+
+Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
